@@ -25,7 +25,6 @@ In addition, this paper has an aim to assist companies involved in non-contractu
 This paper proposes one research question: Which of the compared models for calculating CLV encompasses a good predictive performance of CLV within the non-contractual environment of e-commerce? Good predictive performance is observed when stable quality prediction results may be achieved among all used datasets supported evaluation metrics and outperform the opposite compared models during this study. 
 
  
-
 ## DATASET 
 
 Three different open-source datasets pertaining to non-contractual business setting are used and analyzed to predict the Customer Lifetime Value. The datasets used for this analysis range from years between 1998 and 2012. The following parts briefly summarizes business verticals of the datasets. 
@@ -202,25 +201,16 @@ Based on the calculated RFM values, Recency, Frequency, and Monetary clusters of
 
 Upon Calculating the RFM cluster, a final customer segment is created with five different categories. CDNOW RFM: Fig 4, Online Retail RFM: Fig 5, Global Superstore dataset: Fig 6 shows the RFM segmentation for CDNOW, Online Retail store, and Global Superstore dataset. 
 
+![CDNOW Store Segmentation](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/CDNOW_Segementation_Results.png)
+
 ![Online Ratail Store Segmentation](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/OnlineRetailStore_Segmentation_Results.png)
 
-Chart, bar chart
+![Globalsuperstore Store Segmentation](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Screenshot%202021-12-20%20at%202.21.02%20AM.png)
 
-Description automatically generated 
-
-RFM Segmentation: Online Retail Dataset 
-
-Chart, bar chart
-
-Description automatically generated 
-
-RFM Segmentation: Global Superstore Dataset 
-
-Graphical user interface
-
-Description automatically generated 
 
 Customer Segmentation: Global Superstore dataset 
+
+![Power BI](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/power_bi_1.png)
 
 ### Customer Lifetime Value: 
 
@@ -274,7 +264,9 @@ We used the below regression models to calculate customers spend in the next 90 
 
 ** Random Forest Regressor 
 
-Customers spend probability in next 90 days 
+NMAE for Regression models: Spend in next 90 days 
+
+![Regression models](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Regression_Results.png)
 
 We used the below classification models to calculate the spend probability of customers in the next 90 days and the results are described in TABLE VI: 
 
@@ -284,9 +276,9 @@ We used the below classification models to calculate the spend probability of cu
 
 ** Random Forest Classifier 
 
- alt: NMAE for Regression models: Spend in next 90 days 
+Customers spend probability in next 90 days 
 
-PIC!!!!!!
+![Classification models](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Classification_Results.png)
 
 
 ### CLV prediction for recent customers by considering last 6 months transactions 
@@ -299,9 +291,9 @@ We created a feature data frame by considering the expenditure of each customer 
 
 ** Random Forest Regressor 
 
-alt: NMAE for Regression models: CLV Prediction  
+NMAE for Regression models: CLV Prediction  
 
-PIC!!!
+![Regression models](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/6month.png)
 
 ### Predicting future customer behavior via Probabilistic Approach: 
 
@@ -323,7 +315,7 @@ The second and third assumptions result in the NBD, whereas the next two assumpt
 
 Results from Lifetimes Library: NMAE for 30 days 
 
-PIC!!
+![Probability models](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/lifetimes.png)
 
 
 ### Customer Analytics Dashboard 
@@ -331,8 +323,6 @@ PIC!!
 We fabricated a power BI dashboard that would help businesses analyze customers & provide a solution that allows making data driven decision. It is basically a customer analytics dashboard that predicts spend of the customers in the next 90 days. 
 
 This dashboard shown in Fig 9 has all the customers and there’s an algorithm running behind the scenes that compares what they should be spending & compares it to what they have spent. This can help track those customers that were predicted to spend more than what they actually spent and target them with an email or offer to spend more money. 
-
- 
 
 ## CONCLUSIONS 
 
@@ -342,7 +332,8 @@ However, the selection of the Machine Learning method for solving CLV estimation
 
 
 Customer Analytics Dashboard: CDNOW 
-PIC!!!
+
+![Power BI](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/power_bi_2.png)
  
 ## APPLICATIONS OF CLV 
 
