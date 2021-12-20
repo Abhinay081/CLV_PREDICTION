@@ -198,7 +198,7 @@ Based on the calculated RFM values, Recency, Frequency, and Monetary clusters of
 
 <img src="./Screenshots/Recency_Elbow.JPG" alt="Recency Elbow Curve" >
 
-<img src="./Screenshots/Fequency_Elbow.JPG" alt="Frequency Elbow Curve" >
+<img src="./Screenshots/Frequency_Elbow.JPG" alt="Frequency Elbow Curve" >
 
 <img src="./Screenshots/Monetary_Elbow.JPG" alt="Monetary Elbow Curve" >
 
@@ -221,7 +221,7 @@ Upon Calculating the RFM cluster, a final customer segment is created with five 
 
 ![Online Ratail Store Segmentation](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/OnlineRetailStore_Segmentation_Results.png)
 
-<img src="./Screenshots/Screenshot 2021-12-20 at 2.21.02 AM.JPG.JPG" alt="Global Superstore Segementation Results" >
+<img src="./Screenshots/Screenshot%202021-12-20%20at%202.21.02%20AM.JPG" alt="Global Superstore Segementation Results" >
 
 ![Globalsuperstore Store Segmentation](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Screenshot%202021-12-20%20at%202.21.02%20AM.png) 
 
@@ -232,9 +232,7 @@ Upon Calculating the RFM cluster, a final customer segment is created with five 
 ### Customer Lifetime Value: 
 
 Customer Lifetime Value (CLTV) is calculated to determine a business's total revenue from an individual customer. CLTV is calculated as follows: 
-((Average Order Value * Purchase Frequency) / Churn) * Profit Margin 
-
- 
+((Average Order Value * Purchase Frequency) / Churn) * Profit Margin  
 
 Average Order Value: It is the ratio of the monetary value of total purchases made by the customers and the total number of orders. 
 
