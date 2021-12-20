@@ -123,7 +123,7 @@ The above three datasets mentioned are analyzed here. The required data concerni
 
 Summary information about individual datasets 
 
-<img src="/Screenshots/Summary_table.JPG" alt="Summary table" height=500 width=800>
+<img src="Summary_table.JPG" alt="Summary table" height=500 width=800>
 
 
 
@@ -193,6 +193,8 @@ Monetary value is the total amount spent by a customer during all the purchases 
 Recency – Frequency – Monetary Cluster 
 
 Based on the calculated RFM values, Recency, Frequency, and Monetary clusters of customers are created using the K-means clustering algorithm. Further to find the optimal number of clusters Elbow curve method is used, and the optimal cluster threshold value is passed to the K-means as a parameter. Below are the Elbow curves for Recency, Frequency and Monetary values for CDNOW datasets. 
+
+<img src="Summary_table.JPG" alt="Recency" >
 
 ![Recency](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Recency_Elbow.png)
 
