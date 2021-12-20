@@ -123,7 +123,7 @@ The above three datasets mentioned are analyzed here. The required data concerni
 
 Summary information about individual datasets 
 
-<img src="/Screenshots/Summary_table.png" alt="Summary table" height=550 width=950>
+<img src="Summary_table.png" alt="Summary table" height=550 width=950>
 
 ![Summary table](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Summary_table.png)
 
