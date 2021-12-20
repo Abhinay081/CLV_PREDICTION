@@ -196,7 +196,11 @@ Recency – Frequency – Monetary Cluster
 
 Based on the calculated RFM values, Recency, Frequency, and Monetary clusters of customers are created using the K-means clustering algorithm. Further to find the optimal number of clusters Elbow curve method is used, and the optimal cluster threshold value is passed to the K-means as a parameter. Below are the Elbow curves for Recency, Frequency and Monetary values for CDNOW datasets. 
 
-<img src="Summary_table.JPG" alt="Recency" >
+<img src="./Screenshots/Recency_Elbow.JPG" alt="Recency Elbow Curve" >
+
+<img src="./Screenshots/Fequency_Elbow.JPG" alt="Frequency Elbow Curve" >
+
+<img src="./Screenshots/Monetary_Elbow.JPG" alt="Monetary Elbow Curve" >
 
 ![Recency](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Recency_Elbow.png)
 
@@ -209,14 +213,19 @@ Based on the calculated RFM values, Recency, Frequency, and Monetary clusters of
 
 Upon Calculating the RFM cluster, a final customer segment is created with five different categories. CDNOW RFM: Fig 4, Online Retail RFM: Fig 5, Global Superstore dataset: Fig 6 shows the RFM segmentation for CDNOW, Online Retail store, and Global Superstore dataset. 
 
+<img src="./Screenshots/CDNOW_Segementation_Results.JPG" alt="CDNOW Segementation Results" >
+
 ![CDNOW Store Segmentation](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/CDNOW_Segementation_Results.png)
+
+<img src="./Screenshots/OnlineRetailStore_Segmentation_Results.JPG" alt="Online Retail Store Segmentation Results" >
 
 ![Online Ratail Store Segmentation](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/OnlineRetailStore_Segmentation_Results.png)
 
-![Globalsuperstore Store Segmentation](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Screenshot%202021-12-20%20at%202.21.02%20AM.png)
+<img src="./Screenshots/Screenshot 2021-12-20 at 2.21.02 AM.JPG.JPG" alt="Global Superstore Segementation Results" >
 
+![Globalsuperstore Store Segmentation](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Screenshot%202021-12-20%20at%202.21.02%20AM.png) 
 
-Customer Segmentation: Global Superstore dataset 
+<img src="./Screenshots/power_bi_1.JPG" alt="Power BI dashboard: Customer Segmentation for Global Superstore dataset" >
 
 ![Power BI](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/power_bi_1.png)
 
@@ -274,6 +283,8 @@ We used the below regression models to calculate customers spend in the next 90 
 
 NMAE for Regression models: Spend in next 90 days 
 
+<img src="./Screenshots/Regression_Results.JPG" alt="Regression Results" >
+
 ![Regression models](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Regression_Results.png)
 
 We used the below classification models to calculate the spend probability of customers in the next 90 days and the results are described in TABLE VI: 
@@ -285,6 +296,8 @@ We used the below classification models to calculate the spend probability of cu
 ** Random Forest Classifier 
 
 Customers spend probability in next 90 days 
+
+<img src="./Screenshots/Classification_Results.JPG" alt="Classification Results" >
 
 ![Classification models](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Classification_Results.png)
 
@@ -300,6 +313,8 @@ We created a feature data frame by considering the expenditure of each customer 
 ** Random Forest Regressor 
 
 NMAE for Regression models: CLV Prediction  
+
+<img src="./Screenshots/6month.JPG" alt="CLV prediction results for latest 6 months" >
 
 ![Regression models](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/6month.png)
 
@@ -323,6 +338,8 @@ The second and third assumptions result in the NBD, whereas the next two assumpt
 
 Results from Lifetimes Library: NMAE for 30 days 
 
+<img src="./Screenshots/lifetimes.JPG" alt="Lifetimes library results" >
+
 ![Probability models](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/lifetimes.png)
 
 
@@ -332,6 +349,10 @@ We fabricated a power BI dashboard that would help businesses analyze customers 
 
 This dashboard shown in Fig 9 has all the customers and there’s an algorithm running behind the scenes that compares what they should be spending & compares it to what they have spent. This can help track those customers that were predicted to spend more than what they actually spent and target them with an email or offer to spend more money. 
 
+![Power BI](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/power_bi_2.png)
+
+<img src="./Screenshots/power_bi_2.JPG" alt="Customer Analytics Dashboard: CDNOW" >
+
 ## CONCLUSIONS 
 
 The Machine Learning methods for solving the Customer Lifetime Value estimation problem will continue to evolve and gain interest from both industry and academia point of view. There are different perspectives from which this problem is often tackled, offering businesses the chance to model CLV consistent with their specific needs and use cases.  
@@ -339,10 +360,6 @@ The Machine Learning methods for solving the Customer Lifetime Value estimation 
 However, the selection of the Machine Learning method for solving CLV estimation must consider the various aspects of the machine learning systems within which it's implemented. Like we have seen, the provision and dimensions of the training datasets, the specified accuracy of the predictions, and the integration of the methods with other models are all common decisions that require to be taken. End-to-end machine learning solutions are only precise after they directly match the character of the information they're built on and the nature of the business use cases that require to be improved.  
 
 
-Customer Analytics Dashboard: CDNOW 
-
-![Power BI](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/power_bi_2.png)
- 
 ## APPLICATIONS OF CLV 
 
 Customer Lifetime Value calculations help in understanding the potential value of customers and prompting businesses to learn more about the patterns of individuals or groups of customers. This information allows the firm to devise optimal strategies for each customer, eliminate unwanted costs, and create a long-term perspective of the potential relationship with customers. Organizations can tailor strategies to deal with different customer segments that exhibit differences in buying characteristics, and they can customize different strategies for the same customer depending on the stage of the relationship between the customer and the organization. In other words, the main benefit derived from CLV analysis is that the firm management can take advantage of the analysis of results to predict the future profitability of customers and make more appropriate marketing strategies and decisions relating to customers [16]. CLV models offer insights into managing the existing customer base. For example, classifying customers into high, medium, and low-value customers not only allows differentiation of products or services according to expected customer value but provides an objective basis to direct retention efforts toward high-value customers. In addition, knowledge of CLV can be used to develop a profile of high-value customers which can then be applied to a prospect list to make customer acquisition efforts more efficient and effective. Customer management activities at organizations involve making consistent decisions over time, about: (a) which customers to select for targeting, (b) the level of resources to be allocated to the selected customers, and (c) securing the link between business actions and customer profitability [15]. The lifetime value of the customer has a few potential applications when making marketing decisions, such as helping a firm determine how much it can afford to spend to acquire new customers. Sometimes the best customers might cost more to obtain but will generate much higher returns than will those customers that are less costly to obtain. The CLV model can be used to assist the businesses in quantifying this tradeoff and examining the consequences of a change in a customer’s buying behavior in terms of the long-term profitability of the account. 
