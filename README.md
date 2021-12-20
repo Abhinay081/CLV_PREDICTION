@@ -125,6 +125,10 @@ Summary information about individual datasets
 
 <img src="/Screenshots/Summary_table.JPG" alt="Summary table" height=500 width=800>
 
+<img src="https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Summary_table.png" alt="Summary table" height=500 width=800>
+
+<img src="https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Summary_table.png" alt="Summary table" >
+
 ![Summary table](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Summary_table.png)
 
 
