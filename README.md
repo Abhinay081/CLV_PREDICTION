@@ -124,7 +124,7 @@ The above three datasets mentioned are analyzed here. The required data concerni
 
 Summary information about individual datasets 
 
-![Summary table](https://nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Summary_table.png?raw=true)
+![Summary table](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Summary_table.png)
 
 
 ## METHODOLOGY 
