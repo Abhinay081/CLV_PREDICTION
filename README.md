@@ -124,7 +124,7 @@ The above three datasets mentioned are analyzed here. The required data concerni
 
 Summary information about individual datasets 
 
-![Summary table](https://github.com/monika-arumalla5/test_repo/blob/main/Summary_table.png?raw=true)
+![Summary table](https://nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Summary_table.png?raw=true)
 
 
 ## METHODOLOGY 
@@ -191,11 +191,11 @@ Recency – Frequency – Monetary Cluster
 
 Based on the calculated RFM values, Recency, Frequency, and Monetary clusters of customers are created using the K-means clustering algorithm. Further to find the optimal number of clusters Elbow curve method is used, and the optimal cluster threshold value is passed to the K-means as a parameter. Below are the Elbow curves for Recency, Frequency and Monetary values for CDNOW datasets. 
 
-![Recency](https://github.com/monika-arumalla5/test_repo/blob/main/Recency_Elbow.png?raw=true)
+![Recency](https://nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Recency_Elbow.png?raw=true)
 
-![Frequency](https://github.com/monika-arumalla5/test_repo/blob/main/Frequency_Elbow.png?raw=true)
+![Frequency](https://nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Frequency_Elbow.png?raw=true)
 
-![Monetary](https://github.com/monika-arumalla5/test_repo/blob/main/Monetary_Elbow.png?raw=true)
+![Monetary](https://nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Monetary_Elbow.png?raw=true)
 
 
 ### Final Customer Segmentation 
