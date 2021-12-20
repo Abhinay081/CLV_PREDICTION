@@ -4,8 +4,6 @@
 
 Customer Lifetime Value (CLV) is an important metric in relationship marketing approaches and has been increasingly considered in the field of general marketing. Organizations increasingly derive revenue from the creation and sustenance of long-term relationships with their customers. In such an environment, marketing serves the purpose of maximizing customer lifetime value customer equity, which is the sum of the lifetime values of the organization’s customers. Customer Lifetime Value is an important factor that helps in understanding customers, and it allows organizations to understand the importance of each customer. By segmenting customers into different groups, analysts can build tailored strategies for them. With various data mining approaches, critical customer knowledge can be extracted, which could further help in decision-making. This paper aims to analyze customer spending, segment customers into groups, calculate customer lifetime value and determine the best prediction model. The evaluation was carried out within customer segmentation, using the publicly available transactional database of a few companies within non-contractual e-commerce business settings. This paper also reviews several implementable CLV models that are useful for market segmentation and the allocation of marketing resources for acquisition, retention, and cross-selling. 
 
-<img src="./Screenshots/Summary_table.JPG" alt="Summary table" >
-
 ## INTRODUCTION 
 
 With the rapid growth of technology and industrialization over the past decades, there has been an increasing realization that existing customers represent a valuable asset to the firm and that some customers are more valuable than others [1] and for an organization to survive, it is essential to identify, focus and retain the most valuable customers. Customer Lifetime Value (CLV) is crucial for any organization; however, most organizations have ignored it. A recent study in the United Kingdom revealed that only 34% of the marketers knew the term CLV and its connotations [2]. As a result, most small businesses and organizations fail to survive because the cost of acquiring a customer is higher than expected. CLV can help firms to make cost-effective and time-saving decisions. It will also allow companies to measure the financial impact of various activities like advertisements. 
@@ -127,11 +125,6 @@ Summary information about individual datasets
 
 <img src="Summary_table.JPG" alt="Summary table" height=500 width=800>
 
-
-
-![Summary table](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Summary_table.png)
-
-
 ## METHODOLOGY 
 
 The initial phase of the research set the objectives and the actual research question further justifying the need and appropriateness of the research. In the second phase, data requirements were defined. It was then possible to determine what data and, in what form will be needed to perform the research. In the third phase, data was collected from various sources in the required format. Further, the acquired datasets that met the requirements were pre-processed for the needs of the individual predictive models. The next phase included the selection and justification of choice of CLV models suitable for use by e-commerce companies. In this stage, the implementation of the selected models was also performed according to the described models. The next phase of this research compared the selected CLV predictive models based on certain metrics. Finally, in the last phase of the research, the research question was answered. 
@@ -202,32 +195,17 @@ Based on the calculated RFM values, Recency, Frequency, and Monetary clusters of
 
 <img src="./Screenshots/Monetary_Elbow.JPG" alt="Monetary Elbow Curve" >
 
-![Recency](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Recency_Elbow.png)
-
-![Frequency](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Frequency_Elbow.png)
-
-![Monetary](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Monetary_Elbow.png)
-
-
 ### Final Customer Segmentation 
 
 Upon Calculating the RFM cluster, a final customer segment is created with five different categories. CDNOW RFM: Fig 4, Online Retail RFM: Fig 5, Global Superstore dataset: Fig 6 shows the RFM segmentation for CDNOW, Online Retail store, and Global Superstore dataset. 
 
 <img src="./Screenshots/CDNOW_Segementation_Results.JPG" alt="CDNOW Segementation Results" >
 
-![CDNOW Store Segmentation](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/CDNOW_Segementation_Results.png)
-
 <img src="./Screenshots/OnlineRetailStore_Segmentation_Results.JPG" alt="Online Retail Store Segmentation Results" >
-
-![Online Ratail Store Segmentation](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/OnlineRetailStore_Segmentation_Results.png)
 
 <img src="./Screenshots/Screenshot%202021-12-20%20at%202.21.02%20AM.JPG" alt="Global Superstore Segementation Results" >
 
-![Globalsuperstore Store Segmentation](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Screenshot%202021-12-20%20at%202.21.02%20AM.png) 
-
 <img src="./Screenshots/power_bi_1.JPG" alt="Power BI dashboard: Customer Segmentation for Global Superstore dataset" >
-
-![Power BI](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/power_bi_1.png)
 
 ### Customer Lifetime Value: 
 
@@ -244,6 +222,7 @@ Churn: Churn is defined as the number of customers a business loses in a specifi
 
 Profit Margin: The profit margin is defined as the percentage of profit the business earns from each of its products. The CDNOW dataset and the Online Retail Store dataset did not specify the profit margin, so we have assumed that to be five percent.  
  
+<img src="./Screenshots/CLV_MATH.JPG" alt="CLV Calculation Results" >
 
 ## CLV Calculation results 
 
@@ -283,8 +262,6 @@ NMAE for Regression models: Spend in next 90 days
 
 <img src="./Screenshots/Regression_Results.JPG" alt="Regression Results" >
 
-![Regression models](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Regression_Results.png)
-
 We used the below classification models to calculate the spend probability of customers in the next 90 days and the results are described in TABLE VI: 
 
 ** XGBoost  
@@ -296,9 +273,6 @@ We used the below classification models to calculate the spend probability of cu
 Customers spend probability in next 90 days 
 
 <img src="./Screenshots/Classification_Results.JPG" alt="Classification Results" >
-
-![Classification models](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Classification_Results.png)
-
 
 ### CLV prediction for recent customers by considering last 6 months transactions 
 
@@ -313,8 +287,6 @@ We created a feature data frame by considering the expenditure of each customer 
 NMAE for Regression models: CLV Prediction  
 
 <img src="./Screenshots/6month.JPG" alt="CLV prediction results for latest 6 months" >
-
-![Regression models](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/6month.png)
 
 ### Predicting future customer behavior via Probabilistic Approach: 
 
@@ -338,16 +310,11 @@ Results from Lifetimes Library: NMAE for 30 days
 
 <img src="./Screenshots/lifetimes.JPG" alt="Lifetimes library results" >
 
-![Probability models](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/lifetimes.png)
-
-
 ### Customer Analytics Dashboard 
 
 We fabricated a power BI dashboard that would help businesses analyze customers & provide a solution that allows making data driven decision. It is basically a customer analytics dashboard that predicts spend of the customers in the next 90 days. 
 
 This dashboard shown in Fig 9 has all the customers and there’s an algorithm running behind the scenes that compares what they should be spending & compares it to what they have spent. This can help track those customers that were predicted to spend more than what they actually spent and target them with an email or offer to spend more money. 
-
-![Power BI](https://github.com/nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/power_bi_2.png)
 
 <img src="./Screenshots/power_bi_2.JPG" alt="Customer Analytics Dashboard: CDNOW" >
 
