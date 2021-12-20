@@ -191,7 +191,7 @@ Recency – Frequency – Monetary Cluster
 
 Based on the calculated RFM values, Recency, Frequency, and Monetary clusters of customers are created using the K-means clustering algorithm. Further to find the optimal number of clusters Elbow curve method is used, and the optimal cluster threshold value is passed to the K-means as a parameter. Below are the Elbow curves for Recency, Frequency and Monetary values for CDNOW datasets. 
 
-![Recency](https://nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Recency_Elbow.png?raw=true)
+![Recency](https://nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Recency_Elbow.png)
 
 ![Frequency](https://nagulapalliabhinay/CLV_PREDICTION/blob/main/Screenshots/Frequency_Elbow.png?raw=true)
 
